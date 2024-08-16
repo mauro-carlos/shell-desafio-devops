@@ -1,0 +1,22 @@
+Crie um script para fazer as seguintes operaçoes no S.O
+Passos:
+1 - criar um arquivo sh
+2 - colocar  em seu conteudo os comandos abaixo;
+ -mkdir criado via Script
+ -touch  arquivo-gerado.txt
+ -echo "um teste no arquivo com dado" > arquivo_com_dado.txt
+ 
+ -cat <<EOF >  mais_um_arquivo.txt
+    Estamos aprendendo  a manipular
+    arquivos na aula de devops
+    EOF
+
+echo "-----------------------"
+ -cat arquivo_com_dado.txt
+ echo "-----------------------"
+ -cat arquivo_com_dado.txt
+
+3 - Dar permissao a este arquivo para execução
+4 - rodar o arquivo
+
+Observação : Fazer tudo isso somente em um Script.
